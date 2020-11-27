@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name=”viewport” content=”width=device-width,initial-scale=1.0″>
+  <title>Chatアプリ</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- マテリアルアイコンの設定 -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+<header>
+  <h1>チャットアプリ</h1>
+</header>
+
+<div class="loginarea">
+<div>
+  メールアドレス<input id="mailAddress" type="mailAddress" required/>
+</div>
+<div>
+  パスワード<input id="password" type="password" required/>
+</div>
+  <button id="login">ログイン</button>
+  <button id="register">新規登録</button>
+</div>
+
+
+
+
+<div id="chatroom">
+  <div id="output">
+ <!-- 保存されたデータが表示される箇所 -->
+  </div>
+</div>　　　　
+
+  <!-- ブラウザの画面に見える内容 -->
+<footer>
+  <form　id="message-form">
+   <input type ="text" id="myName" value="" placeholder="おなまえ">
+   <input type="text" id="imessage" value="" placeholder="ひとこと">
+   <input type="button" value="送信" id="sendbtn">
+  </form>
+
+</footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase.js"></script>
+<script type="text/javascript" src="chat.js"></script>
+</body>
+
+</html>

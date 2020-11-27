@@ -1,0 +1,25 @@
+h1{
+    /* 真ん中に */
+text-align: center;
+}
+.loginarea{
+    /* headerとの距離をとる */
+    padding-top: 40px;
+}
+body{
+background-color: burlywood;
+}
+.message{
+    border: solid 1px grey;
+    /* とりあえず囲んだ */
+}
+
+.name{
+    font-weight: bold;
+}
+.material-icons.larger{
+    font-size: 100px;
+    display: flex;
+text-align: left;
+
+}
